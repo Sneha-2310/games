@@ -1,0 +1,67 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+hr{
+    width:500px;;
+}
+#error{
+    color:rgb(226, 80, 43)
+}
+#board{
+    width: 450px;
+    height: 450px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.tile{
+    width:48px;
+    height: 48px;
+    border: 1px solid rgb(230, 173, 173);
+
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#digits{
+    width: 450px;
+    height:50px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.number{
+    width:44px;
+    height: 44px;
+    border: 1px solid rgb(0, 7, 10);
+    margin: 2px;
+
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number-selected
+{
+    background-color: rgb(235, 88, 47);
+}
+
+.tile-start{
+    background-color:bisque ;
+}
+.hr-line{
+    border-bottom: 2px solid black;
+}
+.vr-line{
+    border-right: 2px solid black;
+}
+.solved{
+width:60px;
+}
